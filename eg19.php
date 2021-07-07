@@ -1,5 +1,5 @@
 <?php
-// Incomplete Code
+// Report Generation Incomplete Code
 
 $connection=new mysqli("localhost:3306","root","harsh","me");
 if($connection->connect_error) die("Connection failed: ".$connection->connect_error);
