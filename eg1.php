@@ -277,9 +277,4 @@ echo("Bye!\n");
 
 start();
 
-
-
-
-$controller=new Controller(new View(),new Student())
-$controller.start();
 ?>
