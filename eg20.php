@@ -1127,9 +1127,10 @@ $statement.="('{$name}',23,'F',10,10);";
 //
 
 $start=microtime(true);
+// now it is inserting 1000 records
 if($connection->query($statement)===FALSE) echo("Error: {$connection->error}");
 $end=microtime(true);
-echo("Query OK, (".($end-$start)." sec)\n");
+echo("Query OK, (".($end-$start)." sec)\n"); // time taken by it is minimum 0.18 sec to 1.90 sec approx
 }
 $connection->close();
 ?>
