@@ -1,5 +1,5 @@
 <?php
-
+// without MVC
 class Student
 {
 public $code;
